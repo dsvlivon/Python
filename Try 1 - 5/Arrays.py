@@ -41,3 +41,6 @@ print(miLista[:])
 #para concatenar listas se usan simplemente los operadores 
 xLista=miLista+tuLista
 print(xLista[:])
+
+#para averiguar la longitud de la lista, se el METODO "len"
+print("La lista tiene ", len(xLista), "elementos.")

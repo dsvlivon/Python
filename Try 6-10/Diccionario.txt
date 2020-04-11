@@ -1,0 +1,5 @@
+¿Qué son los diccionarios?
+
+-Estructura de datos que nos permite almacenar valores de diferente tipo (enteros, cadenas de texto, decimales) e incluso listas y otros diccionarios
+-La principal característica de los diccionarios es que los datos se almacenan asociados a una clave de tal forma que se crea una asociación de tipo clave: valor para cada elemento almacenado
+-Los elementos almacenados no están ordenados. El orden es indiferente a la hora de almacenar información en un diccionario
