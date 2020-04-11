@@ -1,0 +1,27 @@
+Notas:
+Python no cierras las instrucciones con ";" ni abre o cierra las funciones con "{ ó }"
+Simplemente marca la apertura de la funcion con ":" las instrucciones que van dentro las
+reconoce por la identación (x eso es muy importante) y la finalización se puede usar un 
+return o simplemente con la diferenciación de identación
+
+Funciones:
+	
+	Que son:
+	-Conjunto de línes de código agrupadas (bloque de código) que funcionan como una unidad realizando una tarea específica.
+	-Las funciones en Python pueden devolver valores
+	-Las funciones en Python pueden tener parámetros/argumentos
+	-A las funciones también se las denomina "métodos" cuando se encuentran definidas dentro de una clase 
+	
+	Utilidad:
+	-Reutilización de código (cuando sea necesario o si es necesario)
+	
+	Sintaxis
+	-def nombre_funcion():
+		-instrucciones de la funcion
+		-return(opcional)
+	-def nombre_funcion(parametros)
+		-instrucciones de la funcion
+		-return(opcional)
+	Ejecución:
+	-nombre_funcion()
+	-nombre_funcion(parametros)
