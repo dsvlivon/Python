@@ -6,7 +6,7 @@ alumno=input("Ingrese su nota: ")
 
 
 def evaluation(x):
-    val="Suspenso"
+    val="Suspenso"b
     if x<4:
         val="Desaprobado"
     elif x>=6:
