@@ -1,0 +1,26 @@
+¿Qué son?
+-Son estructuras que extraen valores de un función de una forma diferente a lo q se esta acostumbrado y esos
+valores que se extraen se van a almacenar en objetos iterables, eso quiere decir q vamos a poder recorrer esos
+objetos con un bucle (while, for, iteradores, next).
+-Esos valores hay q tner en cuenta q se almacenan d uno en uno y q cada q se almacena un valor, el generador 
+permanece pausado hasta que se lo solicita nuevamente. Esta característica es conocida como "suspensión de 
+estado".-
+
+Funcionamiento
+-Una función común utiliza "return" para devolver un valor X, devolviendo también el control de flujo al 
+a donde se generó la llamada.
+-Un generador en vez de la instrucción "return" usa "yield", esta construye un objeto iterable con el primer
+valor de ua lista, por ejemplo. Esta en vez de devolver toda una lista completa, devuelve valor por valor. 
+-Cada vez q se la llama, construye un valor, lo devuelve y entra en stand by 
+
+¿Qué utilidad tienen?
+-Son más eficientes que las funciones tradicionales
+-Muy útiles con listas de valores infinitos
+-Bajo determinados escenarios, será muy útil que un generador devuelva los valores uno en uno.
+-Al manejar valores individuales y no listas completas, se ocupa menos espacio en memoria 
+-
+
+¿Cuál es su sintáxis?
+Def nombreFuncion():
+	....
+	yield variable
