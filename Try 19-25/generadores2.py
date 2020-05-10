@@ -1,3 +1,21 @@
+"""
+Se crea una función básica que construya una lista de 
+números pares y devuelva esa lista
+"""
+"""
+def  generaPares(limite):
+    num=1
+    miLista=[]
+   
+    while num<limite:
+        miLista.append(num*2)
+        num=num+1
+
+    return miLista
+
+print(generaPares(10))
+"""
+
 def  generaPares(limite):
     num=1
     
